@@ -33,12 +33,12 @@ _Use this document as a template to fill in as you progress through the challeng
 
 # Title
 
-_*Add here.*_
+Has forest cover change occurs across Yellowstone National Nark?
 
 
 # Authors
 
-_*Add here.*_
+Yanting Shen, Xinyi Zhang, Ziyang Liu, Jiaxuan Gong
 
 
 # Research question
@@ -47,7 +47,11 @@ __How much forest cover loss and gain has occurred in your protected area?__
 
 # Introduction
 
-_*Introduce the reader to your park and research questions that you are testing during this challenge in 200 words or fewer. You can include a few references if you would like.*_
+Yellowstone National Park was established in 1872 and is located in the northwestern United States, mainly in Wyoming. Forests cover approximately 80% of the park, with lodgepole pine (*Pinus contorta*) being the dominant tree species (National Park Service, n.d.).
+
+Although Yellowstone is a protected area, its forest cover is constantly changing due to natural disturbances such as wildfires and insect outbreaks. Wildfires play an important role in forest ecosystems, as they cause tree mortality but also create favourable conditions for forest generation. Understanding these changes is therefore important for assessing forest recovery and supporting protected area management.
+
+This study uses satellite-derived data to investigate forest cover change in Yellowstone National Park between 2000 and 2016. It aims to quantify forest cover loss and gain within the available observation periods and examine their spatial and temporal patterns.
 
 
 # Workflow
