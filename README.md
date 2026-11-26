@@ -72,12 +72,43 @@ _*Describe your methods in brief including all of the datasets that you used wit
 
 # Data vis and summary methods
 
-Forest cover and change were visualised in Google Earth Engine using the Hansen Global Forest Change dataset, with the WDPA boundary identifying Yellowstone National Park. Tree cover in 2000 was shown in green, forest loss in purple, and forest gain in orange. The surrounding region was also displayed to provide spatial context.
+Forest cover and change were visualised in Google Earth Engine. Tree cover in 2000 was displayed in green, forest loss in purple, and forest gain in orange. The Yellowstone protected-area boundary was overlaid in red to show the location of changes within and around the park.
 
-Following the supplied script, pixel areas were multiplied by the tree-cover fraction in 2000 and converted from square metres to square kilometres. These values were summed within the park boundary, producing baseline-tree-cover-weighted area estimates. Loss was grouped by its recorded year from 2001 to 2016. Gain represents the cumulative period 2000–2012 and cannot be interpreted as annual gain. The analysis therefore focused on descriptive spatial patterns and area summaries, rather than statistical hypothesis testing.
-
+Following the supplied script, change indicators were multiplied by pixel area and the tree-cover fraction in 2000, then converted to square kilometres. The resulting values represent areas weighted by baseline tree cover. Summation reducers were used to summarise these values within the park. The loss-year band was used to group loss by year from 2001 to 2016, while gain represents cumulative change during 2000–2012.
 ```r
-Your code
+// Visualise tree cover and forest change.
+// treeCover has already been divided by 100.
+Map.addLayer(
+  treeCover.updateMask(treeCover),
+  {palette: ['#009900', '#99ff99'], min: 0, max: 1},
+  'Tree cover in 2000'
+);
+
+Map.addLayer(
+  loss.updateMask(loss),
+  {palette: ['#9900ff']},
+  'Forest loss: 2001–2016'
+);
+
+Map.addLayer(
+  gain.updateMask(gain),
+  {palette: ['#ffae00']},
+  'Forest gain: 2000–2012'
+);
+
+// Calculate loss area weighted by tree cover in 2000.
+var areaLoss = loss.gt(0)
+  .multiply(ee.Image.pixelArea())
+  .multiply(treeCover)
+  .divide(1000000)
+  .rename('arealoss');
+
+// Sum the weighted loss area within each park feature.
+var statsLoss = areaLoss.reduceRegions({
+  collection: parks,
+  reducer: ee.Reducer.sum(),
+  scale: scale
+});
 ```
 
 # 1. Maps of forest cover change for your protected area
