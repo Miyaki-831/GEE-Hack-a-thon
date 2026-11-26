@@ -55,8 +55,9 @@ This study uses satellite-derived data to investigate forest cover change in Yel
 
 
 # Workflow
+<img width="1448" height="1086" alt="89fc021d665a9a843b7ed2b2acf4ffbb" src="https://github.com/user-attachments/assets/5bfc72e7-89c6-4ca5-a015-a67ae0497e5b" />
 
-_*Write out or draw your workflow in text here, on paper or in a ppt slide and then take a photo of that to include.*_
+
 
 
 # Specific hypotheses and predictions
