@@ -100,9 +100,9 @@ _<img width="261" height="274" alt="Screenshot 2026-11-26 at 14 44 11" src="http
 
 
 # 2. Visualisation of the amount of forest cover loss and gain for your protected area
-(you can use `R`)
+<img width="1800" height="1260" alt="Yellow_stone_forest_change" src="https://github.com/user-attachments/assets/84f7e70e-ded5-4155-813f-2cad7ff0b111" />
 
-__*Your text and/or figures.*__
+Figure 1. Annual forest loss and gain in Yellowstone National Park from 2001 to 2016, expressed as a percentage of the total park area. Red bars represent forest loss, while orange bars represent forest gain.
 
 
 # 3. How do your results compare with your predictions? What do you think might explain the patterns you found?
