@@ -1,8 +1,30 @@
+```{css}
+/* All text uses Arial */
+body, body * {font-family: Arial, sans-serif;}
+
+/* Body text use 11 pt/
+body {font-size: 11pt; line-height: 1.5;}
+
+/* Titles and section headings use 12 pt */
+h1, h2, h3, h4, h5, h6 {font-size: 12pt; font-weight: bold;}
+h2 { margin-top: 28px; }
+h4 { margin-top: 16px; }
+
+/* References use 10 pt */
+#references p, {font-size: 10pt;}
+
+/* Captions use 10 pt */
+.caption, caption, figcaption, 
+.caption *, caption *, figcaption * {font-size: 10pt; color: #333333;}
+  
+/* Model formula */
+.formula {font-size: 11pt; text-align: center; margin: 10px 0;}
+```
 # Title
-Spatial and Temporal Patterns of Forest Cover Change in Yellowstone National Park (2001–2016)
+Spatial and Temporal Patterns of Forest Cover Change in Yellowstone National Park (2001–2016) 
 
 # Authors
-Yanting Shen, Xinyi Zhang, Ziyang Liu, Jiaxuan Gong
+Jiaxuan Gong, Xinyi Zhang, Yanting Shen, Ziyang Liu
 
 # Research question
 How much forest cover loss and gain occurred in Yellowstone National Park during the study period, and how did forest cover change vary across space and time?
