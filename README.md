@@ -106,9 +106,11 @@ Figure 2. Annual forest loss and gain in Yellowstone National Park from 2001 to 
 
 # 3. How do your results compare with your predictions? What do you think might explain the patterns you found?
 
-_*Use your scientific and critical thinking skills to provide a conclusion summary statement of how land cover is changing across the protected area that you studied.*_
+The results provide descriptive support for Hypotheses 1 and 2. In Figure 1, forest loss occurs in distinct patches rather than being evenly distributed across Yellowstone National Park, which is consistent with the prediction of spatially concentrated disturbance. Figure 2 also shows considerable variation in the reported annual loss estimates. Loss was highest in 2001, with relatively high values in 2002 and 2008, whereas 2006 showed the lowest value. This pattern suggests episodic changes rather than a steady increase or decrease in annual loss.
 
-__*Your text and/or figures.*__
+Wildfires and insect outbreaks are possible explanations for these patterns, although their contributions were not tested in this analysis. Fire can cause tree mortality while also creating conditions favourable for lodgepole pine regeneration (National Park Service, n.d.). However, individual loss patches or annual peaks cannot be attributed to particular disturbances without additional evidence. Comparing forest loss with the timing and location of burned areas would help test the proposed role of wildfire. nps.gov
+
+Hypothesis 3 remains unconfirmed. The gain patches in Figure 1 are consistent with forest establishment or recovery, but the analysis does not demonstrate that these locations were previously disturbed. Furthermore, the gain band records cumulative change during 2000–2012, rather than annual gain. The orange bar labelled 2016 in Figure 2 therefore cannot be interpreted as recovery occurring in that year. Testing this hypothesis would require disturbance histories and subsequent observations of vegetation recovery.
 
 
 # 4. What other datasets, available within the GEE, could you use to test the potential drivers of forest cover change in your group's protected area that you identified in point #3. ?
@@ -140,8 +142,9 @@ Wildfires are an important driver of forest cover loss in Yellowstone National P
 Understanding the relationship between wildfires and forest cover loss can help park managers identify areas that require further monitoring. However, fire is also a natural ecological process that supports forest regeneration in Yellowstone. This research could therefore help managers distinguish natural forest dynamics from changes that may require management intervention.
 
 # Conclusions
+Forest cover change in Yellowstone National Park was spatially uneven, and the reported forest loss estimates varied considerably between 2001 and 2016. These findings are consistent with a landscape experiencing localised and episodic disturbances. Forest gain was also mapped during 2000–2012, although its timing and relationship to earlier disturbances could not be established.
 
-_*Summarise what you have found in this challenge and its broader implications.*_
+The available results do not provide a reliable estimate of net forest change for 2001–2016 because gain and loss cover different observation periods. Further analysis combining forest change with burned-area records would help distinguish possible disturbance and recovery processes. For park management, the findings highlight the value of continued monitoring: forest loss within a protected area should be investigated in its ecological context rather than automatically interpreted as a failure of protection.
 
 ## References
 
