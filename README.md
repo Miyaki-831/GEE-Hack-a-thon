@@ -81,7 +81,8 @@ Your code
 
 _*Describe your results using appropriate scientific writing. Include maps of your protected area with informative captions.*_
 
-_*Your maps*_
+_<img width="261" height="274" alt="Screenshot 2026-11-26 at 14 44 11" src="https://github.com/user-attachments/assets/4b5a8359-d2b0-4193-9c8b-c71d174fd2da" />
+*_
 
 
 # 2. Visualisation of the amount of forest cover loss and gain for your protected area
