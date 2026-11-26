@@ -71,7 +71,9 @@ _*Describe your methods in brief including all of the datasets that you used wit
 
 # Data vis and summary methods
 
-_*Describe your data visualisation, any mathematical summaries and/or any statistical methods that you used in brief. Include any relevant R code snippets.*_
+Forest cover and change were visualised in Google Earth Engine using the Hansen Global Forest Change dataset, with the WDPA boundary identifying Yellowstone National Park. Tree cover in 2000 was shown in green, forest loss in purple, and forest gain in orange. The surrounding region was also displayed to provide spatial context.
+
+Following the supplied script, pixel areas were multiplied by the tree-cover fraction in 2000 and converted from square metres to square kilometres. These values were summed within the park boundary, producing baseline-tree-cover-weighted area estimates. Loss was grouped by its recorded year from 2001 to 2016. Gain represents the cumulative period 2000–2012 and cannot be interpreted as annual gain. The analysis therefore focused on descriptive spatial patterns and area summaries, rather than statistical hypothesis testing.
 
 ```r
 Your code
@@ -79,7 +81,11 @@ Your code
 
 # 1. Maps of forest cover change for your protected area
 
-_*Describe your results using appropriate scientific writing. Include maps of your protected area with informative captions.*_
+Figure shows an uneven spatial distribution of forest loss and gain across Yellowstone National Park. Purple loss patches are visible in the western part of the park, with several distinct patches also occurring in central and eastern areas. Orange gain patches are particularly apparent in western areas and parts of the southern half of the park. Both types of change are also visible outside the park boundary.
+
+These patterns indicate that forest change varied across the study area. However, the map alone does not establish the causes of these changes or whether the park experienced a net increase or decrease in forest cover. In particular, the loss and gain layers cover different time periods.
+
+Figure 1. Forest cover and change in Yellowstone National Park and the surrounding region, visualised in Google Earth Engine using the Hansen Global Forest Change dataset. Green represents tree cover in 2000, purple indicates forest loss during 2001–2016, and orange indicates forest gain during 2000–2012. The red polygon shows the WDPA protected-area extent; red shading does not represent forest change.
 
 _<img width="261" height="274" alt="Screenshot 2026-11-26 at 14 44 11" src="https://github.com/user-attachments/assets/4b5a8359-d2b0-4193-9c8b-c71d174fd2da" />
 *_
