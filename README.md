@@ -1,36 +1,3 @@
-# Spatial analysis using the Google Earth Engine_
-
-## Has forest cover change occurred across protected areas?
-## Data Science Hack-a-thon
-
-### Google Earth Engine link
-https://code.earthengine.google.com/
-
-
-Login to find the challenge script for your group.
-
-Link to the GEE scripts: 
-
-- Group 1: [https://code.earthengine.google.com/ac3ddea0c65a560931f17bd9bb178136](https://code.earthengine.google.com/dccd370a77c76697c72e154966af36ab)
-- Group 2: [https://code.earthengine.google.com/d34419a235b1e84f802c7007210ba170](https://code.earthengine.google.com/64cbd05e6727618e1f570d35e39f46a8)
-- Group 3: https://code.earthengine.google.com/75f0b6804457fa8c00c62f67b40ea5d9
-- Group 4: [https://code.earthengine.google.com/3f911d57652eb8ae74af9fb5f4a4c34d](https://code.earthengine.google.com/0aa119eaa5c359a35fb841fecf4ba929)
-- Group 5: [https://code.earthengine.google.com/8e3b174404344696b6a5c1d1c2625a22](https://code.earthengine.google.com/13bb4502b7be4b12cc6ee0751d63c9b2)
-- Group 6: [https://code.earthengine.google.com/13bb4502b7be4b12cc6ee0751d63c9b2](https://code.earthengine.google.com/49f49302ffd64862a86202b3410d0961)
-- Group 7: https://code.earthengine.google.com/6262f6238b491f9ca8a1340f22fd0f31
-
-# Overarching goal
-_*Investigate forest cover change across protected areas.*_
-
-
-# Challenge aims
-- Map forest cover change from the Hansen et al. Database for your group's protected area as well for the larger region surrounding the protected area
-- Create a figure in R visualising the amounts of forest cover change over time
-- Report the state of forests in your group's protected area in a Markdown document
-
-
-_Use this document as a template to fill in as you progress through the challenge._
-
 # Title
 
 Has forest cover change occurs across Yellowstone National Nark?
