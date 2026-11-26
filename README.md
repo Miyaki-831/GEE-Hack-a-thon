@@ -112,19 +112,51 @@ __*Your text and/or figures.*__
 
 
 # 4. What other datasets, available within the GEE, could you use to test the potential drivers of forest cover change in your group's protected area that you identified in point #3. ?
+The MODIS Burned Area Monthly Global 500m dataset (MCD64A1.061) provides monthly information on burned areas at a spatial resolution of 500 m.
 
-_*Browse through the GEE Data catalogue and provide a link to your chosen dataset with a brief statement about why you chose it. Note you don't need to do analyses with this new dataset, you are just making a suggestion for future studies.*_
+Wildfires are an important natural disturbance in Yellowstone National Park. Comparing the location and timing of burned areas with forest loss could help determine whether wildfires are associated with the observed forest cover changes.
 
-__*Link and description of your chosen dataset*__
+However, the MODIS dataset has a lower spatial resolution than the Hansen dataset, which should be considered when comparing the two datasets.
 
-_*BONUS! If you have the time, for some bonus recognition, map your chosen dataset in the GEE and include a visualisation of the dataset for your protected area (screencap from GEE).*_
-
+Dataset link:
+https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD64A1
 
 # 5. What research question and hypotheses would you test with those additional datasets in your proposed future research and why does that research matter for the park management?
+**Research question:**
 
-_*Add your answer here.*_
+To what extent are wildfires associated with forest cover loss in Yellowstone National Park?
 
+**Hypothesis:**
+
+Wildfires are an important driver of forest cover loss in Yellowstone National Park.
+
+**Predictions:**
+
+- Forest loss will be greater in burned areas than in unburned areas with comparable initial forest cover.
+- Years with larger burned areas will generally show higher levels of forest loss.
+
+**Relevance to park management:**
+
+Understanding the relationship between wildfires and forest cover loss can help park managers identify areas that require further monitoring. However, fire is also a natural ecological process that supports forest regeneration in Yellowstone. This research could therefore help managers distinguish natural forest dynamics from changes that may require management intervention.
 
 # Conclusions
 
 _*Summarise what you have found in this challenge and its broader implications.*_
+
+## References
+
+Hansen, M.C. et al. (2013) ‘High-resolution global maps of 21st-century forest cover change’, *Science*, 342(6160), pp. 850–853. https://doi.org/10.1126/science.1244693.
+
+Hansen/UMD/Google/USGS/NASA (2026) *Hansen Global Forest Change v1.13 (2000–2025)*. Available at: https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13.
+
+UNEP-WCMC and IUCN (2026) *Protected Planet: The World Database on Protected Areas (WDPA)*. Cambridge, UK: UNEP-WCMC and IUCN. Available at: https://www.protectedplanet.net/.
+
+National Park Service (n.d.) *Forests – Yellowstone National Park*. Available at: https://www.nps.gov/yell/learn/nature/forests.htm.
+
+National Park Service (n.d.) *Ecological Consequences of Fire – Yellowstone National Park*. Available at: https://www.nps.gov/yell/learn/nature/ecological-consequences-of-fire.htm.
+
+National Park Service (n.d.) *Park Facts – Yellowstone National Park*. Available at: https://www.nps.gov/yell/planyourvisit/parkfacts.htm.
+
+NASA (n.d.) *MCD64A1.061 MODIS Burned Area Monthly Global 500m*. Available at: https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD64A1.
+
+Our Coding Club (n.d.) *Google Earth Engine Tutorial*. Available at: https://ourcodingclub.github.io/tutorials/earth-engine/.
