@@ -1,5 +1,5 @@
 # Title
-Spatial and Temporal Patterns of Forest Cover Change in Yellowstone National Park (2000–2016)
+Spatial and Temporal Patterns of Forest Cover Change in Yellowstone National Park (2001–2016)
 
 # Authors
 Yanting Shen, Xinyi Zhang, Ziyang Liu, Jiaxuan Gong
@@ -12,7 +12,7 @@ Yellowstone National Park was established in 1872 and is located in the northwes
 
 Although Yellowstone is a protected area, its forest cover is constantly changing due to natural disturbances such as wildfires and insect outbreaks. Wildfires play an important role in forest ecosystems, as they cause tree mortality but also create favourable conditions for forest generation. Understanding these changes is therefore important for assessing forest recovery and supporting protected area management.
 
-This study uses satellite-derived data to investigate forest cover change in Yellowstone National Park between 2000 and 2016. It aims to quantify forest cover loss and gain within the available observation periods and examine their spatial and temporal patterns.
+This study uses satellite-derived data to investigate forest cover change in Yellowstone National Park between 2001 and 2016. It aims to quantify forest cover loss and gain within the available observation periods and examine their spatial and temporal patterns.
 
 # Workflow
 <img width="1448" height="1086" alt="89fc021d665a9a843b7ed2b2acf4ffbb" src="https://github.com/user-attachments/assets/5bfc72e7-89c6-4ca5-a015-a67ae0497e5b" />
@@ -101,7 +101,7 @@ Figure 1. Forest cover and change in Yellowstone National Park and the surroundi
 # 2. Visualisation of the amount of forest cover loss and gain for your protected area
 <img width="1800" height="1260" alt="Yellow_stone_forest_change" src="https://github.com/user-attachments/assets/84f7e70e-ded5-4155-813f-2cad7ff0b111" />
 
-Figure 1. Annual forest loss and gain in Yellowstone National Park from 2001 to 2016, expressed as a percentage of the total park area. Red bars represent forest loss, while orange bars represent forest gain.
+Figure 2. Annual forest loss and gain in Yellowstone National Park from 2001 to 2016, expressed as a percentage of the total park area. Red bars represent forest loss, while orange bars represent forest gain.
 
 
 # 3. How do your results compare with your predictions? What do you think might explain the patterns you found?
