@@ -1,41 +1,50 @@
 # Title
-
-Has forest cover change occurs across Yellowstone National Nark?
-
+Spatial and Temporal Patterns of Forest Cover Change in Yellowstone National Park (2000–2016)
 
 # Authors
-
 Yanting Shen, Xinyi Zhang, Ziyang Liu, Jiaxuan Gong
 
-
 # Research question
-__How much forest cover loss and gain has occurred in your protected area?__
-
+How much forest cover loss and gain occurred in Yellowstone National Park during the study period, and how did forest cover change vary across space and time?
 
 # Introduction
-
 Yellowstone National Park was established in 1872 and is located in the northwestern United States, mainly in Wyoming. Forests cover approximately 80% of the park, with lodgepole pine (*Pinus contorta*) being the dominant tree species (National Park Service, n.d.).
 
 Although Yellowstone is a protected area, its forest cover is constantly changing due to natural disturbances such as wildfires and insect outbreaks. Wildfires play an important role in forest ecosystems, as they cause tree mortality but also create favourable conditions for forest generation. Understanding these changes is therefore important for assessing forest recovery and supporting protected area management.
 
 This study uses satellite-derived data to investigate forest cover change in Yellowstone National Park between 2000 and 2016. It aims to quantify forest cover loss and gain within the available observation periods and examine their spatial and temporal patterns.
 
-
 # Workflow
 <img width="1448" height="1086" alt="89fc021d665a9a843b7ed2b2acf4ffbb" src="https://github.com/user-attachments/assets/5bfc72e7-89c6-4ca5-a015-a67ae0497e5b" />
 
-
-
-
 # Specific hypotheses and predictions
+Natural disturbances, particularly wildfires and insect outbreaks, are important drivers of forest cover change in Yellowstone National Park. However, fire also supports the regeneration of some tree species, particularly lodgepole pine (National Park Service, n.d.).
 
-_*What do you know about this protected area?  What sort of factors could influence forest cover change in this part of the world?*_
+**Hypothesis 1: Forest cover loss is spatially uneven.**
 
+Prediction: Forest loss will occur in large clusters rather than being evenly distributed across the park due to the localised nature of disturbances.
+
+**Hypothesis 2: Forest cover loss varies between years.**
+
+Prediction: Annual forest loss will show considerable fluctuations, with peaks potentially associated with major disturbance events.
+
+**Hypothesis 3: Natural regeneration contributes to forest cover gain.**
+
+Prediction: Forest cover gain will occur in some previously disturbed areas due to natural forest recovery.'
 
 # Methods
+This study uses Google Earth Engine (GEE) to analyse forest cover change in Yellowstone National Park. Two datasets are used:
 
-_*Describe your methods in brief including all of the datasets that you used with appropriate crediting/referencing/copyright for the datasets.*_
+- **Hansen Global Forest Change v1.13:** A Landsat-derived dataset with a spatial resolution of approximately 30 m, providing information on tree cover, forest loss and forest gain (Hansen et al., 2013).
+- **World Database on Protected Areas (WDPA):** A global dataset containing the boundaries and associated information of protected areas (UNEP-WCMC and IUCN, 2026).
 
+The WDPA dataset is filtered to extract the boundary of Yellowstone National Park. Four bands are selected from the Hansen dataset: `treecover2000`, `loss`, `gain` and `lossyear`.
+
+The original tree cover percentage is converted into a proportion and multiplied by pixel area to estimate tree cover area in 2000. Forest loss and gain areas are calculated by multiplying the corresponding binary values by pixel area. All area measurements are converted from m² to km².
+
+The analysis calculates annual forest loss between 2001 and 2016. However, the gain band only provides cumulative forest gain between 2000 and 2012. Therefore, loss and gain are compared over the same observation period where appropriate.
+
+Forest cover, loss and gain are visualised within Yellowstone National Park and its surrounding region. The calculated area values are exported as a CSV file for further analysis and visualisation in R.
 
 # Data vis and summary methods
 
